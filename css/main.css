@@ -145,9 +145,11 @@ body.noscroll {
   cursor: default;
 }
 
-header {
-  padding-top: 35px;
-  padding-bottom: 35px;
+@media screen and (max-width: 767px) {
+  header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
 }
 
 .logo {
@@ -770,7 +772,6 @@ header {
     margin: 0;
     padding-bottom: 115px;
     margin-left: auto;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -1130,7 +1131,6 @@ header {
 }
 .address-box-btn {
   display: block;
-  max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   margin: 0 auto;
